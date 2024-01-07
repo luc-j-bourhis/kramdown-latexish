@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    kramdown-latexish (1.0.1)
+    kramdown-latexish (1.0.2)
       bibtex-ruby (~> 6.0)
       citeproc-ruby (~> 2.0)
       csl-styles (~> 2.0)
@@ -39,7 +39,7 @@ GEM
       parser
       unparser
     rake (10.5.0)
-    rexml (3.2.5)
+    rexml (3.2.6)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
       rspec-expectations (~> 3.12.0)
