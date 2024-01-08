@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    kramdown-latexish (1.0.2)
+    kramdown-latexish (1.0.3)
       bibtex-ruby (~> 6.0)
       citeproc-ruby (~> 2.0)
       csl-styles (~> 2.0)
