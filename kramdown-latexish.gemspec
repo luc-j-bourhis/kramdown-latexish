@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Luc J. Bourhis"]
   spec.email         = ["luc_j_bourhis@mac.com"]
 
-  spec.summary       = %q{Kramdown extension for math-heavy document.}
-  spec.description   = %q{Kramdown extension for math-heavy document. It provides theorem environments, and easy references to those environments as well as to equations and section headers. Moreover, a bibliography section can be generated from a BibTeX file, and an flexible and easy mean of citing bibliographical entries is provided. Sections and environments are
+  spec.summary       = %q{Kramdown extension for math-heavy document}
+  spec.description   = %Q{#{spec.summary}. It provides theorem environments, and easy references to those environments as well as to equations and section headers. Moreover, a bibliography section can be generated from a BibTeX file, and an flexible and easy mean of citing bibliographical entries is provided. Sections and environments are
     automatically numbered.}
   spec.homepage      = "https://github.com/luc-j-bourhis/kramdown-latexish"
   spec.license       = "MIT"
