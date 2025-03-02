@@ -27,22 +27,21 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Tested with this version
-  spec.required_ruby_version = '~> 3.0'
+  spec.required_ruby_version = '~> 3.2'
 
-  spec.add_development_dependency "bundler", "~> 2.2"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "rspec-parameterized", "~> 1.0"
+  spec.add_development_dependency "rake", '~> 13.2'
+  spec.add_development_dependency "rspec", '~> 3.13'
+  spec.add_development_dependency "rspec-parameterized", '~> 1.0'
 
   # We extend this
-  spec.add_runtime_dependency "kramdown", "~> 2.4"
+  spec.add_runtime_dependency "kramdown", '~> 2.5'
 
   # BibTeX bibliography tools
-  spec.add_runtime_dependency 'bibtex-ruby', "~> 6.0"
+  spec.add_runtime_dependency 'bibtex-ruby', '~> 6.1'
 
   # Render bibliography to HTML
-  spec.add_runtime_dependency 'citeproc-ruby', "~> 2.0"
+  spec.add_runtime_dependency 'citeproc-ruby', '~> 2.1'
 
   # Bibliography styles
-  spec.add_runtime_dependency 'csl-styles', "~> 2.0"
+  spec.add_runtime_dependency 'csl-styles', '~> 2.0'
 end
